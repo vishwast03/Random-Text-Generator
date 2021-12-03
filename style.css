@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background: #f1f5f8;
+}
+.section-center {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-transform: uppercase;
+    color: #063251;
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+.lorem-form label {
+    text-transform: capitalize;
+    color: #063251;
+    font-size: 1.3rem;
+}
+.lorem-form input {
+    width: 3.5rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+.btn {
+    color: black;
+    background: #49a6e9;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.3rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+.btn:hover {
+    color: #043f69;
+    background: #a0cceb;
+}
+.random-text {
+    width: 60%;
+    color: #043f69;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1.1rem;
+}
+.random-text p {
+    margin: 1.5rem 0;
+}
